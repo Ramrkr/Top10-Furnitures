@@ -29,7 +29,7 @@ export default function Header({ onNavClick, onRequestViewClick, requestCount }:
   const handleConsultationClick = () => {
     const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || (window.innerWidth < 768);
     if (isMobileDevice) {
-      window.location.href = 'tel:+919840012345';
+      window.location.href = 'tel:+919944259992';
     } else {
       setContactModalOpen(true);
     }
