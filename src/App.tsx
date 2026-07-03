@@ -29,7 +29,7 @@ export default function App() {
   // Load from local storage
   useEffect(() => {
     try {
-      const stored = localStorage.getItem('lumber_grain_consultations');
+      const stored = localStorage.getItem('topten_furnitures_consultations');
       if (stored) {
         setRequests(JSON.parse(stored));
       }
@@ -42,13 +42,13 @@ export default function App() {
   const handleAddRequest = (newRequest: ConsultationRequest) => {
     const updated = [newRequest, ...requests];
     setRequests(updated);
-    localStorage.setItem('lumber_grain_consultations', JSON.stringify(updated));
+    localStorage.setItem('topten_furnitures_consultations', JSON.stringify(updated));
   };
 
   const handleDeleteRequest = (id: string) => {
     const filtered = requests.filter(r => r.id !== id);
     setRequests(filtered);
-    localStorage.setItem('lumber_grain_consultations', JSON.stringify(filtered));
+    localStorage.setItem('topten_furnitures_consultations', JSON.stringify(filtered));
   };
 
   // Scroll to section helper
