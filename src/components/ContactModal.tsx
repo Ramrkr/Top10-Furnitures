@@ -66,20 +66,20 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                   </div>
                   <div className="space-y-1 flex-1">
                     <div className="flex justify-between items-baseline">
-                      <h4 className="font-serif text-sm font-bold text-primary">Chennai Design Hub</h4>
-                      <span className="font-mono text-[9px] text-walnut-gold tracking-widest uppercase">HEAD OFFICE</span>
+                      <h4 className="font-serif text-sm font-bold text-primary">Interior Design Hub</h4>
+                      <span className="font-mono text-[9px] text-walnut-gold tracking-widest uppercase">OFFICE</span>
                     </div>
-                    <a href="tel:+914424999999" className="font-sans text-xs text-brand-ebony hover:text-primary font-bold block transition-colors mt-0.5">
-                      +91 44 2499 9999
+                    <a href="tel:+919944259992" className="font-sans text-xs text-brand-ebony hover:text-primary font-bold block transition-colors mt-0.5">
+                      +91 99442 59992
                     </a>
-                    <span className="font-sans text-[10px] text-brand-clay block">
+                    {/*<span className="font-sans text-[10px] text-brand-clay block">
                       RK Salai, Mylapore, Chennai, TN 600004
-                    </span>
+                    </span>*/}
                   </div>
                 </div>
 
                 {/* Hub 2: Bangalore Atelier */}
-                <div className="flex items-start gap-4 p-3 hover:bg-brand-low/40 rounded-xs transition-colors group border border-transparent hover:border-outline-variant/20">
+                {/*<div className="flex items-start gap-4 p-3 hover:bg-brand-low/40 rounded-xs transition-colors group border border-transparent hover:border-outline-variant/20">
                   <div className="p-2 bg-primary/5 rounded-xs text-primary group-hover:bg-primary/10 transition-colors">
                     <Building2 className="w-4 h-4" />
                   </div>
@@ -95,7 +95,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                       Koramangala 4th Block, Bengaluru, KA 560034
                     </span>
                   </div>
-                </div>
+                </div>*/}
 
                 {/* Hub 3: Coimbatore Workshop */}
                 <div className="flex items-start gap-4 p-3 hover:bg-brand-low/40 rounded-xs transition-colors group border border-transparent hover:border-outline-variant/20">
@@ -104,14 +104,14 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                   </div>
                   <div className="space-y-1 flex-1">
                     <div className="flex justify-between items-baseline">
-                      <h4 className="font-serif text-sm font-bold text-primary">Coimbatore Workshop & Forestry</h4>
+                      <h4 className="font-serif text-sm font-bold text-primary">TopTen Furnitures & Manufacturing</h4>
                       <span className="font-mono text-[9px] text-brand-clay tracking-widest uppercase">MANUFACTURING</span>
                     </div>
-                    <a href="tel:+919840012345" className="font-sans text-xs text-brand-ebony hover:text-primary font-bold block transition-colors mt-0.5">
-                      +91 98400 12345
+                    <a href="tel:+919894586341" className="font-sans text-xs text-brand-ebony hover:text-primary font-bold block transition-colors mt-0.5">
+                      +91 98945 86341
                     </a>
                     <span className="font-sans text-[10px] text-brand-clay block">
-                      62 Avinashi Road, Coimbatore, TN 641018
+                     VKV Kumaraguru nagar, Viswasapuram, Coimbatore, TN 641035
                     </span>
                   </div>
                 </div>
@@ -128,8 +128,8 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 </div>
                 <div className="flex items-center gap-2 text-brand-clay">
                   <Mail className="w-3.5 h-3.5 text-walnut-gold" />
-                  <a href="mailto:bespoke@lumberandgrain.in" className="hover:text-primary font-semibold transition-colors">
-                    bespoke@lumberandgrain.in
+                  <a href="mailto:toptenfurnitures@gmail.com" className="hover:text-primary font-semibold transition-colors">
+                    toptenfurnitures@gmail.comm
                   </a>
                 </div>
               </div>

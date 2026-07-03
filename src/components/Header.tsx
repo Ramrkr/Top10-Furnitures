@@ -45,7 +45,7 @@ export default function Header({ onNavClick, onRequestViewClick, requestCount }:
             className="font-serif text-2xl font-semibold text-primary tracking-tight cursor-pointer hover:opacity-90"
             id="logo-button"
           >
-            LUMBER & GRAIN
+            TopTen Furniture
           </button>
 
           {/* Desktop Navigation Links */}

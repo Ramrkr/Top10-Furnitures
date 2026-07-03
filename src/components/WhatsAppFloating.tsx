@@ -6,8 +6,8 @@ export default function WhatsAppFloating() {
 
   const handleWhatsAppClick = () => {
     // Direct DM with pre-filled message
-    const message = encodeURIComponent("Hello Lumber & Grain, I'm interested in your custom timber and interior design services!");
-    const url = `https://wa.me/919840012345?text=${message}`;
+    const message = encodeURIComponent("Hello TopTen Furniture, I'm interested in your custom timber and interior design services!");
+    const url = `https://wa.me/919944259992?text=${message}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 

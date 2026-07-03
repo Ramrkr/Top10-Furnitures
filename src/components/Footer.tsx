@@ -32,7 +32,7 @@ export default function Footer({ onNavClick }: FooterProps) {
             onClick={() => onNavClick('hero')}
             className="font-serif text-2xl font-bold tracking-tight text-primary hover:opacity-85 text-left cursor-pointer"
           >
-            LUMBER & GRAIN
+            TopTen Furnitures
           </button>
           
           <p className="font-sans text-sm text-brand-clay leading-relaxed max-w-sm">
@@ -40,7 +40,7 @@ export default function Footer({ onNavClick }: FooterProps) {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-3">
+          {/*<div className="flex gap-3">
             <button 
               onClick={handleShare}
               className="w-10 h-10 rounded-full border border-outline-variant/50 flex items-center justify-center text-brand-clay hover:bg-primary hover:text-white hover:border-transparent transition-all cursor-pointer"
@@ -57,7 +57,7 @@ export default function Footer({ onNavClick }: FooterProps) {
             >
               <Globe className="w-4 h-4" />
             </a>
-          </div>
+          </div>*/}
         </div>
 
         {/* Column 2: Navigation (2 Columns) */}
@@ -145,11 +145,12 @@ export default function Footer({ onNavClick }: FooterProps) {
 
           <div className="pt-2 border-t border-outline-variant/20">
             <h5 className="font-sans font-extrabold text-[11px] tracking-[0.2em] text-primary uppercase mb-2">
-              Workshop
+              TopTen Furnitures Workshop
             </h5>
             <p className="font-sans text-xs text-brand-clay leading-relaxed">
-              62 Avinashi Road<br />
-              Coimbatore, Tamil Nadu 641018<br />
+              VKV Kumaraguru Nagar<br />
+              Viswasapuram,<br />
+              Coimbatore, Tamil Nadu 641035<br />
               Mon - Sat: 9:00 - 19:00
             </p>
           </div>
@@ -158,7 +159,7 @@ export default function Footer({ onNavClick }: FooterProps) {
         {/* Bottom copyright metadata details */}
         <div className="col-span-full mt-12 pt-8 border-t border-outline-variant/30 flex flex-col sm:flex-row justify-between items-center gap-6 text-xs text-brand-clay">
           <div className="flex items-center gap-1">
-            <span>© {currentYear} LUMBER & GRAIN. Crafted with longevity in Tamil Nadu.</span>
+            <span>© {currentYear} TopTen Furnitures. Crafted with longevity in Tamil Nadu.</span>
             <Heart className="w-3.5 h-3.5 text-primary fill-primary" />
           </div>
           <div className="flex gap-6 font-sans font-extrabold text-[10px] tracking-widest text-brand-clay">
