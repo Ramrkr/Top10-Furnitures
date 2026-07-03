@@ -1,0 +1,6 @@
+{
+  "name": "Lumber & Grain",
+  "description": "Artisanal wooden and plywood furniture portfolio and interactive bespoke design configurator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
